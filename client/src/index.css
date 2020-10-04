@@ -1,0 +1,209 @@
+.Btn {
+  display:inline-block;
+  padding: 0.3em 1.2em;
+  margin-left: 25%;
+  margin-top: 10%;
+  border-radius:2em;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-family:'Roboto',sans-serif;
+  font-weight:300;
+  color:#FFFFFF;
+  background-color:#4eb5f1;
+  text-align:center;
+  transition: all 0.2s;
+}
+.Btn:hover{
+  color:#DDDDDD;
+  border-color:#DDDDDD;
+}
+.Btn:active{
+  color:#BBBBBB;
+  border-color:#BBBBBB;
+}
+.BtnBack {
+  display:inline-block;
+  padding: 0.3em 1.2em;
+ 
+  margin-top: 10%;
+  border-radius:2em;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-family:'Roboto',sans-serif;
+  font-weight:300;
+  color:#FFFFFF;
+  background-color:#4eb5f1;
+  text-align:center;
+  transition: all 0.2s;
+}
+.BtnBack:hover{
+  color:#DDDDDD;
+  border-color:#DDDDDD;
+}
+.BtnBack:active{
+  color:#BBBBBB;
+  border-color:#BBBBBB;
+}
+
+.Footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(2, 1, 1);
+  color: white;
+  text-align: center;
+  
+}
+table {  
+  border-collapse:separate;
+  table-layout:auto;
+  width:300px;
+  border:solid 1px rgb(8, 8, 8);
+}
+tr.border_bottom td  {
+  border-bottom: 1px solid black;
+}
+tr.border_bottom th  {
+  border-bottom: 1px solid black;
+}
+th, td {
+  width:200px;
+  word-wrap:break-word;
+  /* border-bottom: 1px solid black; */
+  text-align: center;
+}
+tr.highlight {
+  border-top: 10px solid;
+  border-bottom: 10px solid;
+  border-color: transparent;
+}
+.detailesBox{
+  
+  width: 450px;
+  padding: 10px;
+  border: 5px solid gray;
+  margin: auto;
+}
+.icons{
+  position: relative;
+  margin-left: 200px;
+  margin-bottom: 0px;
+}
+.topbar__container{
+  border-bottom: 3px solid gray;
+  padding: 10px;
+}
+.topbar__allFruits{
+  padding: 10px;
+  text-align: center;
+}
+.topbar__link{
+  color: black;
+  text-decoration-line: none;
+}
+
+.ul_fruit{
+  list-style-type: none;
+  width: 320px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right:5px;
+  padding-left: 5px;
+  border: 2px ridge   gray;
+  margin-left: auto;
+  margin-right: auto; 
+  margin-top: 60px;
+}
+
+.li_fruit{
+  width:auto;
+  border-bottom: 2px ridge   gray;
+  margin-left: 0px;  
+  padding: 3px;
+  
+}
+.fruit_link{
+  width: 100px;
+  size: 100px;
+  color: black;
+  text-decoration-line: none;
+}
+.det_tables{
+  width: 320px;
+  padding-left: 60px;
+  margin: auto;
+}
+.eraser{
+  padding-left: 15px;
+}
+.head_lines_det{
+  display:inline-block;
+}
+.fav_icons{
+  margin-left: 125px;
+  padding-top: 10px;
+}
+.pen_icon{
+margin-left: 10px;
+}
+.logBox{
+    margin: 0;
+    position: absolute;
+    bottom: 60%;
+    /* top: 50%;
+    left: 50%; */
+    right: 44%;
+    height: 10em;
+    
+   }
+img{
+  max-width: 100px;
+}
+.imgLogIn{
+  margin-left:20%;
+
+}
+h2{
+  text-align: center;
+}
+
+
+.fruitImage{
+  border: 1px ridge   rgb(179, 178, 178);
+  max-width: 80px;
+  display: inline;
+  
+}
+.infoImageName{
+  display:inline-block;
+  padding-left: 5%;
+}
+.fruitHeadLine{
+  text-emphasis: none;
+  padding: 0;
+
+}
+h5 {
+  line-height: 0;
+  line-break: 0;
+}
+
+.wikiBtn{
+  background-color: white;
+  font-style: oblique;
+  line-height: 1;
+  font-size: 10px;
+}
+.entryTilte{
+  border: none;
+  display: inline-flex;
+}
+.entryValue{
+  border: none;
+  display: inline-flex;
+}
+.eraserIcon{
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
