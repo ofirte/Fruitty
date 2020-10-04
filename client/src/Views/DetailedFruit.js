@@ -19,8 +19,10 @@ class DetailedFruit extends React.Component {
   }
   
 isFav(){
-    if(localStorage.getItem("fav")===null)
+    if(localStorage.getItem("fav")===null){
        this.setState({isfav:true})
+       return
+  }
     var userInfo=JSON.parse(localStorage.getItem("fav")).find((obj)=>obj.token===this.props.token)
     if(typeof userInfo=== 'undefined')
       return false
