@@ -12,6 +12,11 @@ https://www.mongodb.com/try/download/community?tck=docs_server
 ```
 'npm install'
 ```
+3.Install server dependencies with:
+```
+npm install express
+npm install body-parser
+```
 ## Usage
 1. Run
 ```
