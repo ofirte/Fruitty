@@ -26,6 +26,15 @@ node server.js
 ```
 npm start
 ```
+##Users
+```
+email:ofir@abc.com
+password:1234
+```
+```
+email:tene@abc.com
+password:1234
+```
 
 
 
