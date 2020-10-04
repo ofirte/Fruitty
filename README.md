@@ -4,11 +4,10 @@ My Fruittiy App.
 
 ## Installation
 
-1. install MongoDB (just add link to MongoDB installation guide)
+1. install MongoDB from here
 
 ```bash
-pip install foobar
-```
+https://www.mongodb.com/try/download/community?tck=docs_server```
 
 ## Usage
 
