@@ -8,18 +8,14 @@ My Fruittiy App.
 ```bash
 https://www.mongodb.com/try/download/community?tck=docs_server
 ```
-2. Initate server with:
-```
-node server
-```
-3. Initate client with:
+2. install client dependencies with:
 ```
 'npm install'
 ```
 ## Usage
 1. Run
 ```
-nose server.js
+node server.js
 ```
 2. Go to ./clent and run
 ```
