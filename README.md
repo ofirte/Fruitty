@@ -8,25 +8,25 @@ My Fruittiy App.
 ```bash
 https://www.mongodb.com/try/download/community?tck=docs_server
 ```
-2. install client dependencies with:
+2.Go to client directory and install client dependencies with:
 ```
 'npm install'
 ```
-3.Install server dependencies with:
+3.Go to main directory and Install server dependencies with:
 ```
 npm install express
 npm install body-parser
 ```
 ## Usage
-1. Run
+1.Go to main directory and run
 ```
 node server.js
 ```
-2. Go to ./clent and run
+2.Go to client directory and run
 ```
 npm start
 ```
-##Users
+## Users
 ```
 email:ofir@abc.com
 password:1234
